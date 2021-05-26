@@ -1,0 +1,265 @@
+{
+  "logo": [
+    {
+      "id": 1,
+      "url": "/image/logo.png",
+      "link": "/",
+      "description": "",
+      "type": "header"
+    },
+    {
+      "id": 1,
+      "url": "/image/logo.png",
+      "link": "/",
+      "description": "Just type what's on your mind ",
+      "type": "footer"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "id": 2,
+      "text": "Product",
+      "link": "product"
+    },
+    {
+      "id": 3,
+      "text": "About",
+      "link": "about"
+    },
+    {
+      "id": 4,
+      "text": "Contact",
+      "link": "contact"
+    }
+  ],
+  "button": [
+    {
+      "id": 1,
+      "type": "login",
+      "text": "Login",
+      "background": "white"
+    },
+    {
+      "id": 2,
+      "type": "started",
+      "text": "Get Started",
+      "background": "blue"
+    },
+    {
+      "id": 8,
+      "type": "metting",
+      "text": "Get Started",
+      "background": "blue"
+    },
+    {
+      "id": 3,
+      "type": "try",
+      "text": "Try For Free",
+      "background": "white"
+    },
+    {
+      "id": 4,
+      "type": "download",
+      "text": "Download",
+      "background": "white"
+    },
+    {
+      "id": 5,
+      "type": "see",
+      "text": "See Walkthrough",
+      "background": "white"
+    },
+    {
+      "id": 6,
+      "type": "free",
+      "text": "Get Started For Free",
+      "background": "blue"
+    },
+    {
+      "id": 7,
+      "type": "testimonial",
+      "text": "All Testimonials",
+      "background": "blue"
+    }
+  ],
+  "heading": [
+    {
+      "id": 1,
+      "type": "hero",
+      "name": "",
+      "title": "Lightning fast prototyping",
+      "description": "Most calendars are designed for teams.",
+      "description_2": " Slate is designed for freelancers.",
+      "more": ""
+    },
+    {
+      "id": 2,
+      "type": "navigate",
+      "name": "Just type",
+      "title": "Fastest way to navigate",
+      "description": "Most calendars are designed for teams. Slate is designed for freelancers.",
+      "more": "",
+      "description_2": ""
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "name": "",
+      "title": "OpenType features ",
+      "description": "Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.",
+      "more": "LEARN MORE",
+      "description_2": ""
+    },
+    {
+      "id": 4,
+      "type": "variable",
+      "name": "",
+      "title": "Variable fonts",
+      "description": "Most calendars are designed for teams. Slate is designed for freelancers ",
+      "more": "LEARN MORE",
+      "description_2": ""
+    },
+    {
+      "id": 5,
+      "type": "work",
+      "name": "",
+      "title": "A rethink of how we work",
+      "description": "Being a freelancer is a rollercoaster of emotions. We built Slate to keep your",
+      "more": "",
+      "description_2": ""
+    },
+    {
+      "id": 6,
+      "type": "pricing",
+      "name": "",
+      "title": "Pricing",
+      "description": "Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.",
+      "more": "",
+      "description_2": ""
+    },
+    {
+      "id": 7,
+      "type": "metting",
+      "name": "",
+      "title": "We focus on ergonomic meeting",
+      "description": "",
+      "more": "",
+      "description_2": ""
+    },
+    {
+      "id": 8,
+      "type": "being",
+      "name": "",
+      "title": "",
+      "description": "Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business building...",
+      "more": "",
+      "description_2": ""
+    },
+    {
+      "id": 9,
+      "type": "building",
+      "name": "",
+      "title": "",
+      "description": "Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance businessbuilding...",
+      "more": "",
+      "description_2": ""
+    },
+    {
+      "id": 10,
+      "type": "task",
+      "name": "",
+      "title": "File tasks",
+      "description": "Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business less stressful.",
+      "more": "",
+      "description_2": ""
+    }
+  ],
+  "count": [
+    {
+      "id": 1,
+      "text": "Facebook",
+      "count": "35.929"
+    }
+  ],
+  "tetimonial": [
+    {
+      "id": 1,
+      "title": "Testimonials",
+      "url": "/image/logos_ibm.png",
+      "description": "Being a freelancer is a rollercoaster of emotions. We built Slate to keep your freelance business less stressful.",
+      "span": " We'd love to show you what we're building...",
+      "avatar": "/image/avatar.png",
+      "position": "Designer",
+      "name": "Esther Webb"
+    }
+  ],
+  "trial": [
+    {
+      "id": 1,
+      "title": "30-DAY FREE TRIAL",
+      "price": "$5",
+      "time": "/month per user",
+      "description": "Most calendars are designed for teams. "
+    }
+  ],
+  "social": [
+    {
+      "id": 1,
+      "url": "/image/twitter.svg",
+      "url_1": "/image/twitter1.svg"
+    },
+    {
+      "id": 1,
+      "url": "/image/face.svg",
+      "url_1": "/image/face1.svg"
+    },
+    {
+      "id": 1,
+      "url": "/image/in.svg",
+      "url_1": "/image/in1.svg"
+    }
+  ],
+  "mobile": [],
+  "imagesss": [
+    {
+      "id": 1,
+      "type": "hero",
+      "url_2": "/image/browser.png",
+      "url": "/image/Vector (1).png",
+      "url_1": "/image/Vector (2).png"
+    },
+    {
+      "id": 2,
+      "type": "feature",
+      "url": "/image/Vector (3).png",
+      "url_1": "/image/Vector1.png",
+      "url_2": "/image/screen.png"
+    },
+    {
+      "id": 3,
+      "type": "variable",
+      "url": "/image/Vector (4).png",
+      "url_1": "/image/Vector2.png",
+      "url_2": "/image/screen (1).png"
+    },
+    {
+      "id": 4,
+      "type": "testimonial",
+      "url": "/image/Vector (5).png",
+      "url_1": "/image/Vector (6).png",
+      "url_2": "/image/Vector3.png"
+    },
+    {
+      "id": 5,
+      "type": "mobile",
+      "url": "/image/menu.svg",
+      "url_1": "/image/menu1.svg",
+      "url_2": ""
+    }
+  ]
+}
