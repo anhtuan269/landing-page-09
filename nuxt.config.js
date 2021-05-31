@@ -1,5 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  ssr: true,
+  server: {
+    port:3001
+  },
   head: {
     title: 'landing-09',
     htmlAttrs: {

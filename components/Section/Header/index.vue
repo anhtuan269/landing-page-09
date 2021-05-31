@@ -3,11 +3,10 @@
     class="header flex items-center justify-between max-w-420 mx-auto mt-10 mb-40 md:max-w-2xl xl:max-w-1200 xl:px-03"
   >
     <Logo
-      v-for="(item, index) in logo"
+      v-for="(item, index) in headerLogo"
       :key="index"
       :item="item"
       :type="item.type"
-      v-show="item.type === 'header'"
     />
     <ul class="hidden xl:flex">
       <Menu v-for="(item, index) in menu" :key="index" :item="item" />
@@ -22,16 +21,16 @@
           :type="item.type"
         />
       </div>
-     <div class="menu-icon xl:hidden">
+      <div class="menu-icon xl:hidden">
         <Picture
-        v-for="(item, index) in image"
-        :key="index"
-        :item="item"
-        v-show="item.type === 'mobile'"
-        :type="item.type"
-        @menuMobile="change"
-      />
-     </div>
+          v-for="(item, index) in image"
+          :key="index"
+          :item="item"
+          v-show="item.type === 'mobile'"
+          :type="item.type"
+          @menuMobile="change"
+        />
+      </div>
       <div
         class="fixed top-0 right-0 h-screen w-250 bg-black-01 border border-black-01 text-white p-10 transform duration-300 ease-linear"
         :class="position"
@@ -104,6 +103,11 @@ export default {
         return "opacity-100 -translate-x-14 md:-translate-x-24 z-20";
       }
     },
+    headerLogo() {
+      return this.logo.filter(function (item) {
+        return item.type === "header";
+      });
+    },  
   },
 };
 </script>
